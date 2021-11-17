@@ -1,0 +1,41 @@
+header {
+    height: 100px;
+    display: grid;
+    
+    grid-template-rows: 100px;
+    color: beige;
+    background-color: #0C4271;
+    width: 100vw;
+    font-size: 40px;
+  }
+  
+  .appclima h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin: auto;
+  }
+  
+  
+  @media (max-width: 550px) {
+    header {
+      height: 100px;
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-rows: 100px;
+      color: rgb(220, 214, 214);
+      background-color: #171717;
+      width: 100vw;
+    }
+  
+    .appclima h4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      grid-column: 2 / 3;
+      grid-row: 1;
+      font-size: 2rem;
+    }
+  }
+  

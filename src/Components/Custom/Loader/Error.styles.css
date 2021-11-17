@@ -1,0 +1,15 @@
+.errorzazo{
+    height: 200px;
+    width: 300px;
+    background-color: #B91646;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.errorzazo>p{
+    font-size: 30px;
+}

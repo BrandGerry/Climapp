@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.unouno{
+    width: 60vh;
+    height: 50vh;
+    background-color: #D1E8E4;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.negro{
+    margin-top: 10px;
+    color: black;
+}
+
+.pe{
+    margin-top: 8px;
+    color: black;
+    font-size: 20px;
+}
+
+
+h2 {
+    font-size: 3rem;
+}
+
+div button{
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.dosdos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
