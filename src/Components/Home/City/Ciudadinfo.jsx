@@ -23,7 +23,7 @@ const Ciudadinfo = ({name, weather, img, temp}) => {
         <div className="card">
             <div className="unouno">
                <h2>{name}</h2>
-               <img src={`http://openweathermap.org/img/wn/${img}@2x.png`} alt="weather-logo"/>
+               <img src={`https://openweathermap.org/img/wn/${img}@2x.png`} alt="weather-logo"/>
 			   <h4 className="negro">{Math.trunc(temp)}°</h4>
                <p className="pe">{weather}</p>
             </div>

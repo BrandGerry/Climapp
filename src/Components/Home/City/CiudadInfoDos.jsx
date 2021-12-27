@@ -31,7 +31,7 @@ const CiudadInfoDos = (props) => {
 		<section>	
 			<div >
 				<div className="Primero">
-					<img src={`http://openweathermap.org/img/wn/${img}@2x.png`} alt="weather-logo"/>
+					<img src={`https://openweathermap.org/img/wn/${img}@2x.png`} alt="weather-logo"/>
 					<h4>{mainWeather}</h4>
 					<p className="Weather">{weather}</p>
 				</div>
