@@ -24,7 +24,7 @@ const Home = () => {
         setInfCity(null);
         setLoader(true);
         //Llmamos a la api aqui porque lo necesitamos justo enviamos submit
-        const API = `http://api.openweathermap.org/data/2.5/weather?q=${nombreCity}&units=metric&appid=f6b349843f6d90a998faca33f9129e66`
+        const API = `https://api.openweathermap.org/data/2.5/weather?q=${nombreCity}&units=metric&appid=f6b349843f6d90a998faca33f9129e66`
         const response = await fetch (API);
         const result = await response.json();
         setInfCity(result); 
