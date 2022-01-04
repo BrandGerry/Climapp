@@ -20,7 +20,7 @@ const Weatherinformation = () => {
 	useEffect(() => {
 		const handleCityDataDos = async () => {
 		setLoader(true);
-		const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${name}&units=metric&appid=f6b349843f6d90a998faca33f9129e66`);
+		const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${name}&units=metric&appid=f6b349843f6d90a998faca33f9129e66`);
 		const result = await response.json();
 		setMainCityData(result);
 		setLoader(false);	
